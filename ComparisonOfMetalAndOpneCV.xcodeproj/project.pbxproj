@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		396C039D8E2B6E8D71BF22C5 /* Pods_ComparisonOfMetalAndOpneCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3710A870B8690447BF2DE2F1 /* Pods_ComparisonOfMetalAndOpneCV.framework */; };
 		9CD2B626213A33140016CE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B625213A33140016CE9B /* AppDelegate.swift */; };
-		9CD2B628213A33140016CE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B627213A33140016CE9B /* ViewController.swift */; };
+		9CD2B628213A33140016CE9B /* ControlPanelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B627213A33140016CE9B /* ControlPanelTableViewController.swift */; };
 		9CD2B62B213A33140016CE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD2B629213A33140016CE9B /* Main.storyboard */; };
 		9CD2B62D213A33150016CE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD2B62C213A33150016CE9B /* Assets.xcassets */; };
 		9CD2B630213A33150016CE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD2B62E213A33150016CE9B /* LaunchScreen.storyboard */; };
 		9CD2B63B213A33160016CE9B /* ComparisonOfMetalAndOpneCVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B63A213A33160016CE9B /* ComparisonOfMetalAndOpneCVTests.swift */; };
 		9CD2B646213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B645213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests.swift */; };
+		9CD2B659213A377C0016CE9B /* OpenCVFunctions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B658213A377C0016CE9B /* OpenCVFunctions.mm */; };
+		9CD2B660213A3A310016CE9B /* OpenCVDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B65F213A3A310016CE9B /* OpenCVDataStore.swift */; };
+		9CD2B662213A3A770016CE9B /* MetalShaderDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B661213A3A770016CE9B /* MetalShaderDataStore.swift */; };
+		9CD2B668213A3C2E0016CE9B /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B667213A3C2E0016CE9B /* ImageProcessor.swift */; };
+		9CD2B66A213A3C690016CE9B /* UIViewController+AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B669213A3C690016CE9B /* UIViewController+AlertDialog.swift */; };
+		9CD2B66C213A3D1A0016CE9B /* ImageShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B66B213A3D1A0016CE9B /* ImageShader.metal */; };
+		9CD2B66F213A3D9E0016CE9B /* small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD2B66D213A3D9E0016CE9B /* small.jpg */; };
+		9CD2B670213A3D9E0016CE9B /* large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD2B66E213A3D9E0016CE9B /* large.jpg */; };
+		9CD2B672213A441C0016CE9B /* ControlPanelPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B671213A441C0016CE9B /* ControlPanelPresenter.swift */; };
+		9CD2B674213A462F0016CE9B /* ControlPanelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B673213A462F0016CE9B /* ControlPanelContract.swift */; };
+		9CD2B678213A61070016CE9B /* ImageProcessingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B677213A61070016CE9B /* ImageProcessingUseCase.swift */; };
 		A5A521FEF80A2A53557C993F /* Pods_ComparisonOfMetalAndOpneCVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2731F4B5FF277A086F825E24 /* Pods_ComparisonOfMetalAndOpneCVUITests.framework */; };
 		B9A65BFFCB9F44E0FC1231C0 /* Pods_ComparisonOfMetalAndOpneCVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA58089F0D7DCAEB20D041C /* Pods_ComparisonOfMetalAndOpneCVTests.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +55,7 @@
 		49C7743D57137AA6EC389726 /* Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCVUITests/Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CD2B622213A33140016CE9B /* ComparisonOfMetalAndOpneCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComparisonOfMetalAndOpneCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD2B625213A33140016CE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CD2B627213A33140016CE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CD2B627213A33140016CE9B /* ControlPanelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelTableViewController.swift; sourceTree = "<group>"; };
 		9CD2B62A213A33140016CE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CD2B62C213A33150016CE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD2B62F213A33150016CE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +66,19 @@
 		9CD2B641213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComparisonOfMetalAndOpneCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD2B645213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonOfMetalAndOpneCVUITests.swift; sourceTree = "<group>"; };
 		9CD2B647213A33160016CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD2B653213A373B0016CE9B /* ComparisonOfMetalAndOpneCV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComparisonOfMetalAndOpneCV-Bridging-Header.h"; sourceTree = "<group>"; };
+		9CD2B657213A377C0016CE9B /* OpenCVFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVFunctions.h; sourceTree = "<group>"; };
+		9CD2B658213A377C0016CE9B /* OpenCVFunctions.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVFunctions.mm; sourceTree = "<group>"; };
+		9CD2B65F213A3A310016CE9B /* OpenCVDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCVDataStore.swift; sourceTree = "<group>"; };
+		9CD2B661213A3A770016CE9B /* MetalShaderDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalShaderDataStore.swift; sourceTree = "<group>"; };
+		9CD2B667213A3C2E0016CE9B /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		9CD2B669213A3C690016CE9B /* UIViewController+AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertDialog.swift"; sourceTree = "<group>"; };
+		9CD2B66B213A3D1A0016CE9B /* ImageShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ImageShader.metal; sourceTree = "<group>"; };
+		9CD2B66D213A3D9E0016CE9B /* small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = small.jpg; sourceTree = "<group>"; };
+		9CD2B66E213A3D9E0016CE9B /* large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large.jpg; sourceTree = "<group>"; };
+		9CD2B671213A441C0016CE9B /* ControlPanelPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelPresenter.swift; sourceTree = "<group>"; };
+		9CD2B673213A462F0016CE9B /* ControlPanelContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelContract.swift; sourceTree = "<group>"; };
+		9CD2B677213A61070016CE9B /* ImageProcessingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessingUseCase.swift; sourceTree = "<group>"; };
 		BC54DE2782984E2C7EF8CA93 /* Pods-ComparisonOfMetalAndOpneCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCVTests/Pods-ComparisonOfMetalAndOpneCVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA58089F0D7DCAEB20D041C /* Pods_ComparisonOfMetalAndOpneCVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComparisonOfMetalAndOpneCVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8C39A4B6291E7F52ABA66D /* Pods-ComparisonOfMetalAndOpneCVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCVTests/Pods-ComparisonOfMetalAndOpneCVTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,12 +151,12 @@
 		9CD2B624213A33140016CE9B /* ComparisonOfMetalAndOpneCV */ = {
 			isa = PBXGroup;
 			children = (
-				9CD2B625213A33140016CE9B /* AppDelegate.swift */,
-				9CD2B627213A33140016CE9B /* ViewController.swift */,
-				9CD2B629213A33140016CE9B /* Main.storyboard */,
-				9CD2B62C213A33150016CE9B /* Assets.xcassets */,
-				9CD2B62E213A33150016CE9B /* LaunchScreen.storyboard */,
+				9CD2B65C213A39640016CE9B /* Source */,
+				9CD2B666213A3B640016CE9B /* Shader */,
+				9CD2B664213A3AB20016CE9B /* Storyboard */,
+				9CD2B665213A3AC90016CE9B /* Resource */,
 				9CD2B631213A33150016CE9B /* Info.plist */,
+				9CD2B62C213A33150016CE9B /* Assets.xcassets */,
 			);
 			path = ComparisonOfMetalAndOpneCV;
 			sourceTree = "<group>";
@@ -153,6 +177,91 @@
 				9CD2B647213A33160016CE9B /* Info.plist */,
 			);
 			path = ComparisonOfMetalAndOpneCVUITests;
+			sourceTree = "<group>";
+		};
+		9CD2B65A213A38B90016CE9B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2B667213A3C2E0016CE9B /* ImageProcessor.swift */,
+				9CD2B65E213A39E00016CE9B /* Metal */,
+				9CD2B65D213A39D70016CE9B /* OpenCV */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9CD2B65B213A394B0016CE9B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2B671213A441C0016CE9B /* ControlPanelPresenter.swift */,
+				9CD2B627213A33140016CE9B /* ControlPanelTableViewController.swift */,
+				9CD2B669213A3C690016CE9B /* UIViewController+AlertDialog.swift */,
+				9CD2B673213A462F0016CE9B /* ControlPanelContract.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9CD2B65C213A39640016CE9B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2B653213A373B0016CE9B /* ComparisonOfMetalAndOpneCV-Bridging-Header.h */,
+				9CD2B625213A33140016CE9B /* AppDelegate.swift */,
+				9CD2B65A213A38B90016CE9B /* Data */,
+				9CD2B663213A3A950016CE9B /* Domain */,
+				9CD2B65B213A394B0016CE9B /* Presentation */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9CD2B65D213A39D70016CE9B /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2B657213A377C0016CE9B /* OpenCVFunctions.h */,
+				9CD2B658213A377C0016CE9B /* OpenCVFunctions.mm */,
+				9CD2B65F213A3A310016CE9B /* OpenCVDataStore.swift */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		9CD2B65E213A39E00016CE9B /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2B661213A3A770016CE9B /* MetalShaderDataStore.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		9CD2B663213A3A950016CE9B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2B677213A61070016CE9B /* ImageProcessingUseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		9CD2B664213A3AB20016CE9B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2B62E213A33150016CE9B /* LaunchScreen.storyboard */,
+				9CD2B629213A33140016CE9B /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9CD2B665213A3AC90016CE9B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2B66E213A3D9E0016CE9B /* large.jpg */,
+				9CD2B66D213A3D9E0016CE9B /* small.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9CD2B666213A3B640016CE9B /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				9CD2B66B213A3D1A0016CE9B /* ImageShader.metal */,
+			);
+			path = Shader;
 			sourceTree = "<group>";
 		};
 		AC76B409F99D258039712C05 /* Frameworks */ = {
@@ -236,6 +345,7 @@
 				TargetAttributes = {
 					9CD2B621213A33140016CE9B = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					9CD2B635213A33160016CE9B = {
 						CreatedOnToolsVersion = 10.0;
@@ -272,7 +382,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD2B670213A3D9E0016CE9B /* large.jpg in Resources */,
 				9CD2B630213A33150016CE9B /* LaunchScreen.storyboard in Resources */,
+				9CD2B66F213A3D9E0016CE9B /* small.jpg in Resources */,
 				9CD2B62D213A33150016CE9B /* Assets.xcassets in Resources */,
 				9CD2B62B213A33140016CE9B /* Main.storyboard in Resources */,
 			);
@@ -356,8 +468,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD2B628213A33140016CE9B /* ViewController.swift in Sources */,
+				9CD2B662213A3A770016CE9B /* MetalShaderDataStore.swift in Sources */,
+				9CD2B628213A33140016CE9B /* ControlPanelTableViewController.swift in Sources */,
+				9CD2B674213A462F0016CE9B /* ControlPanelContract.swift in Sources */,
+				9CD2B668213A3C2E0016CE9B /* ImageProcessor.swift in Sources */,
+				9CD2B66A213A3C690016CE9B /* UIViewController+AlertDialog.swift in Sources */,
+				9CD2B66C213A3D1A0016CE9B /* ImageShader.metal in Sources */,
+				9CD2B678213A61070016CE9B /* ImageProcessingUseCase.swift in Sources */,
 				9CD2B626213A33140016CE9B /* AppDelegate.swift in Sources */,
+				9CD2B672213A441C0016CE9B /* ControlPanelPresenter.swift in Sources */,
+				9CD2B660213A3A310016CE9B /* OpenCVDataStore.swift in Sources */,
+				9CD2B659213A377C0016CE9B /* OpenCVFunctions.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +584,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -518,7 +639,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -533,6 +654,7 @@
 			baseConfigurationReference = F846DE1B218211451B466F64 /* Pods-ComparisonOfMetalAndOpneCV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TXFV3DH636;
 				INFOPLIST_FILE = ComparisonOfMetalAndOpneCV/Info.plist;
@@ -542,6 +664,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kotetu.app.sample.metal-opencv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ComparisonOfMetalAndOpneCV/Source/ComparisonOfMetalAndOpneCV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -552,6 +676,7 @@
 			baseConfigurationReference = 10F7A17BD4CF10DA01D94617 /* Pods-ComparisonOfMetalAndOpneCV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TXFV3DH636;
 				INFOPLIST_FILE = ComparisonOfMetalAndOpneCV/Info.plist;
@@ -561,6 +686,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kotetu.app.sample.metal-opencv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ComparisonOfMetalAndOpneCV/Source/ComparisonOfMetalAndOpneCV-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
