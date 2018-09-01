@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396C039D8E2B6E8D71BF22C5 /* Pods_ComparisonOfMetalAndOpneCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3710A870B8690447BF2DE2F1 /* Pods_ComparisonOfMetalAndOpneCV.framework */; };
 		9CD2B626213A33140016CE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B625213A33140016CE9B /* AppDelegate.swift */; };
 		9CD2B628213A33140016CE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B627213A33140016CE9B /* ViewController.swift */; };
 		9CD2B62B213A33140016CE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD2B629213A33140016CE9B /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		9CD2B630213A33150016CE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD2B62E213A33150016CE9B /* LaunchScreen.storyboard */; };
 		9CD2B63B213A33160016CE9B /* ComparisonOfMetalAndOpneCVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B63A213A33160016CE9B /* ComparisonOfMetalAndOpneCVTests.swift */; };
 		9CD2B646213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD2B645213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests.swift */; };
+		A5A521FEF80A2A53557C993F /* Pods_ComparisonOfMetalAndOpneCVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2731F4B5FF277A086F825E24 /* Pods_ComparisonOfMetalAndOpneCVUITests.framework */; };
+		B9A65BFFCB9F44E0FC1231C0 /* Pods_ComparisonOfMetalAndOpneCVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA58089F0D7DCAEB20D041C /* Pods_ComparisonOfMetalAndOpneCVTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10F7A17BD4CF10DA01D94617 /* Pods-ComparisonOfMetalAndOpneCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCV.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCV/Pods-ComparisonOfMetalAndOpneCV.release.xcconfig"; sourceTree = "<group>"; };
+		2731F4B5FF277A086F825E24 /* Pods_ComparisonOfMetalAndOpneCVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComparisonOfMetalAndOpneCVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3710A870B8690447BF2DE2F1 /* Pods_ComparisonOfMetalAndOpneCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComparisonOfMetalAndOpneCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1C9E79825B7C6161B1DD60 /* Pods-ComparisonOfMetalAndOpneCVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCVUITests/Pods-ComparisonOfMetalAndOpneCVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49C7743D57137AA6EC389726 /* Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCVUITests/Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CD2B622213A33140016CE9B /* ComparisonOfMetalAndOpneCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComparisonOfMetalAndOpneCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD2B625213A33140016CE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD2B627213A33140016CE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		9CD2B641213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComparisonOfMetalAndOpneCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD2B645213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonOfMetalAndOpneCVUITests.swift; sourceTree = "<group>"; };
 		9CD2B647213A33160016CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC54DE2782984E2C7EF8CA93 /* Pods-ComparisonOfMetalAndOpneCVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCVTests/Pods-ComparisonOfMetalAndOpneCVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEA58089F0D7DCAEB20D041C /* Pods_ComparisonOfMetalAndOpneCVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComparisonOfMetalAndOpneCVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8C39A4B6291E7F52ABA66D /* Pods-ComparisonOfMetalAndOpneCVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCVTests/Pods-ComparisonOfMetalAndOpneCVTests.release.xcconfig"; sourceTree = "<group>"; };
+		F846DE1B218211451B466F64 /* Pods-ComparisonOfMetalAndOpneCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCV/Pods-ComparisonOfMetalAndOpneCV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396C039D8E2B6E8D71BF22C5 /* Pods_ComparisonOfMetalAndOpneCV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A65BFFCB9F44E0FC1231C0 /* Pods_ComparisonOfMetalAndOpneCVTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A521FEF80A2A53557C993F /* Pods_ComparisonOfMetalAndOpneCVUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1899BC369F070090715BCDC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F846DE1B218211451B466F64 /* Pods-ComparisonOfMetalAndOpneCV.debug.xcconfig */,
+				10F7A17BD4CF10DA01D94617 /* Pods-ComparisonOfMetalAndOpneCV.release.xcconfig */,
+				BC54DE2782984E2C7EF8CA93 /* Pods-ComparisonOfMetalAndOpneCVTests.debug.xcconfig */,
+				EB8C39A4B6291E7F52ABA66D /* Pods-ComparisonOfMetalAndOpneCVTests.release.xcconfig */,
+				49C7743D57137AA6EC389726 /* Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig */,
+				3E1C9E79825B7C6161B1DD60 /* Pods-ComparisonOfMetalAndOpneCVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9CD2B619213A33140016CE9B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				9CD2B639213A33160016CE9B /* ComparisonOfMetalAndOpneCVTests */,
 				9CD2B644213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests */,
 				9CD2B623213A33140016CE9B /* Products */,
+				1899BC369F070090715BCDC6 /* Pods */,
+				AC76B409F99D258039712C05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = ComparisonOfMetalAndOpneCVUITests;
 			sourceTree = "<group>";
 		};
+		AC76B409F99D258039712C05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3710A870B8690447BF2DE2F1 /* Pods_ComparisonOfMetalAndOpneCV.framework */,
+				BEA58089F0D7DCAEB20D041C /* Pods_ComparisonOfMetalAndOpneCVTests.framework */,
+				2731F4B5FF277A086F825E24 /* Pods_ComparisonOfMetalAndOpneCVUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CD2B64A213A33160016CE9B /* Build configuration list for PBXNativeTarget "ComparisonOfMetalAndOpneCV" */;
 			buildPhases = (
+				99BDF93C1379572C17799B32 /* [CP] Check Pods Manifest.lock */,
 				9CD2B61E213A33140016CE9B /* Sources */,
 				9CD2B61F213A33140016CE9B /* Frameworks */,
 				9CD2B620213A33140016CE9B /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CD2B64D213A33160016CE9B /* Build configuration list for PBXNativeTarget "ComparisonOfMetalAndOpneCVTests" */;
 			buildPhases = (
+				014EBFBCDF6D5FE54DE46FAD /* [CP] Check Pods Manifest.lock */,
 				9CD2B632213A33160016CE9B /* Sources */,
 				9CD2B633213A33160016CE9B /* Frameworks */,
 				9CD2B634213A33160016CE9B /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CD2B650213A33160016CE9B /* Build configuration list for PBXNativeTarget "ComparisonOfMetalAndOpneCVUITests" */;
 			buildPhases = (
+				253AC6A5E6A9304DBA992019 /* [CP] Check Pods Manifest.lock */,
 				9CD2B63D213A33160016CE9B /* Sources */,
 				9CD2B63E213A33160016CE9B /* Frameworks */,
 				9CD2B63F213A33160016CE9B /* Resources */,
@@ -250,6 +293,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014EBFBCDF6D5FE54DE46FAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComparisonOfMetalAndOpneCVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		253AC6A5E6A9304DBA992019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComparisonOfMetalAndOpneCVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BDF93C1379572C17799B32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComparisonOfMetalAndOpneCV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CD2B61E213A33140016CE9B /* Sources */ = {
@@ -430,6 +530,7 @@
 		};
 		9CD2B64B213A33160016CE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F846DE1B218211451B466F64 /* Pods-ComparisonOfMetalAndOpneCV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,7 +540,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.kotetu.app.sample.metal-opencv.ComparisonOfMetalAndOpneCV";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kotetu.app.sample.metal-opencv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +549,7 @@
 		};
 		9CD2B64C213A33160016CE9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F7A17BD4CF10DA01D94617 /* Pods-ComparisonOfMetalAndOpneCV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,7 +559,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.kotetu.app.sample.metal-opencv.ComparisonOfMetalAndOpneCV";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kotetu.app.sample.metal-opencv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +568,7 @@
 		};
 		9CD2B64E213A33160016CE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC54DE2782984E2C7EF8CA93 /* Pods-ComparisonOfMetalAndOpneCVTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +590,7 @@
 		};
 		9CD2B64F213A33160016CE9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8C39A4B6291E7F52ABA66D /* Pods-ComparisonOfMetalAndOpneCVTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +612,7 @@
 		};
 		9CD2B651213A33160016CE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C7743D57137AA6EC389726 /* Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +633,7 @@
 		};
 		9CD2B652213A33160016CE9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1C9E79825B7C6161B1DD60 /* Pods-ComparisonOfMetalAndOpneCVUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
