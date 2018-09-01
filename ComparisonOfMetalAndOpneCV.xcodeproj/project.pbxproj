@@ -53,7 +53,7 @@
 		3710A870B8690447BF2DE2F1 /* Pods_ComparisonOfMetalAndOpneCV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComparisonOfMetalAndOpneCV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1C9E79825B7C6161B1DD60 /* Pods-ComparisonOfMetalAndOpneCVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCVUITests/Pods-ComparisonOfMetalAndOpneCVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		49C7743D57137AA6EC389726 /* Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComparisonOfMetalAndOpneCVUITests/Pods-ComparisonOfMetalAndOpneCVUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9CD2B622213A33140016CE9B /* ComparisonOfMetalAndOpneCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComparisonOfMetalAndOpneCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD2B622213A33140016CE9B /* Metal & CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metal & CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD2B625213A33140016CE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD2B627213A33140016CE9B /* ControlPanelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelTableViewController.swift; sourceTree = "<group>"; };
 		9CD2B62A213A33140016CE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		9CD2B623213A33140016CE9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CD2B622213A33140016CE9B /* ComparisonOfMetalAndOpneCV.app */,
+				9CD2B622213A33140016CE9B /* Metal & CV.app */,
 				9CD2B636213A33160016CE9B /* ComparisonOfMetalAndOpneCVTests.xctest */,
 				9CD2B641213A33160016CE9B /* ComparisonOfMetalAndOpneCVUITests.xctest */,
 			);
@@ -292,7 +292,7 @@
 			);
 			name = ComparisonOfMetalAndOpneCV;
 			productName = ComparisonOfMetalAndOpneCV;
-			productReference = 9CD2B622213A33140016CE9B /* ComparisonOfMetalAndOpneCV.app */;
+			productReference = 9CD2B622213A33140016CE9B /* Metal & CV.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9CD2B635213A33160016CE9B /* ComparisonOfMetalAndOpneCVTests */ = {
@@ -663,7 +663,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kotetu.app.sample.metal-opencv";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Metal & CV";
 				SWIFT_OBJC_BRIDGING_HEADER = "ComparisonOfMetalAndOpneCV/Source/ComparisonOfMetalAndOpneCV-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -685,7 +685,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kotetu.app.sample.metal-opencv";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Metal & CV";
 				SWIFT_OBJC_BRIDGING_HEADER = "ComparisonOfMetalAndOpneCV/Source/ComparisonOfMetalAndOpneCV-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
