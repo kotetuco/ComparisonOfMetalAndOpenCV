@@ -12,7 +12,7 @@
         <!--Control Panel Table View Controller-->
         <scene sceneID="1Ua-uD-hcO">
             <objects>
-                <tableViewController id="lge-YU-dqn" userLabel="Control Panel Table View Controller" customClass="ControlPanelTableViewController" customModule="ComparisonOfMetalAndOpenCV" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="lge-YU-dqn" userLabel="Control Panel Table View Controller" customClass="ControlPanelTableViewController" customModule="Metal_and_CV" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yM7-8f-iSB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
